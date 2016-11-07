@@ -1,0 +1,9 @@
+= Numix for Vimperator
+
+== Installation
+
+1. Put `colors/numix.vimp` file in your `~/.vimperator/colors/numix.vimp` directory.
+2. Add the following line to your `~/.vimperatorrc`
+-----
+colorscheme numix
+-----

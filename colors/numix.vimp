@@ -1,0 +1,41 @@
+" == Numix color scheme ==
+" name:     Numix
+" file:     numix.vimp
+" url:      https://github.com/mi2428/vimperator-numix-colorscheme
+" author:   mi2428 <tamy..z.mi2428.net>
+" license:  MIT License
+" == Numix color scheme settings ==
+
+hi CmdLine                  color: #eee; background: #333;
+hi CmdOutput                white-space: pre;
+
+hi CompTitle                color: #fff; background: #444;
+hi CompTitle>*              color: #fff; background: #444;
+hi CompItem                 color: #eee; background: #333;
+hi CompItem>*               color: #eee; background: #333;
+hi CompItem[selected]       color: #eee; background: #f0544c;
+hi CompItem[selected]>*     color: #eee; background: #f0544c;
+hi CompMsg                  color: #fff; background: transparent;
+hi CompDesc                 color: #eee; background: #333;
+hi CompResult               color: #fff; background: transparent;
+hi CompGroup                color: #eee; background: #333;
+
+hi Hint                     color: #fff; background: #03a9f4; font-weight: bold; z-index: 9999; border: 0 solid ButtonShadow; padding: 0 2px 0 2px; position: absolute; text-transform: uppercase;
+hi Hint::after              content: attr(number);
+hi HintActive               color: #fff; background: #f0544c;
+hi HintElem                 color: #fff; background: #388e3c;
+hi HintImage                opacity: 0.2;
+
+hi Filter                   color: #eee; background: #f0544c; font-weight: bold;
+hi Title                    color: #fff; background: #444;
+hi URL                      color: #fff; background: #444; text-decoration: underline;
+hi Indicator                color: #fff; background: #444;
+hi String                   color: #fff; background: #444;
+hi Number                   color: #fff; background: #444;
+hi Object                   color: #fff; background: #444;
+hi Function                 color: #fff; background: #444;
+hi InfoMsg                  color: #fff; background: #03a9f4;
+hi WarningMsg               color: #fff; background: #ef6c00;
+hi ErrorMsg                 color: #fff; background: #f44336;
+hi Normal                   color: #eee; background: #333; opacity: 0.9;
+hi StatusLine               color: #eee; background: #333;
